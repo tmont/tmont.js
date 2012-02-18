@@ -1,3 +1,5 @@
 # tmont.js
 
-http://i.qkme.me/366vo1.jpg
+```html
+<script type="text/javascript" src="http://tmont.com/tmont.js"></script>
+```
