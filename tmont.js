@@ -35,9 +35,9 @@
                 width: '100%',
                 height: '100%',
                 backgroundColor: '#000000',
-                opacity: 0,
-                zIndex: zIndex
-            }).appendTo('body').fadeTo(0.8);
+                zIndex: zIndex,
+                opacity: 0.8
+            }).appendTo('body');
 
             $('<div/>').css({
                 left: -100000,
@@ -46,7 +46,8 @@
                 zIndex: zIndex + 1,
                 width: 560,
                 height: 315,
-                padding: 10px;
+                padding: 10,
+                backgroundColor: 'black',
                 boxShadow: '0 2px 5px rgba(9, 0, 0, 0.8)'
             }).html(embedString).appendTo('body').animate({
                 left: left
